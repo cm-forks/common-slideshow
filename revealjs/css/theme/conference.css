@@ -232,6 +232,27 @@ ul li li li {list-style-type:circle;}
     font-size: 100%;
 }
 
+/*********************************************
+ * Callout
+ *********************************************/
+.reveal i.conum { 
+    display: inline-block;
+    color: white !important;
+    background-color: #222222;
+    -webkit-border-radius: 100px; 
+    border-radius: 100px; 
+    text-align: center; 
+    width: 25px; height: 25px; font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    font-style: normal;
+    position: relative; top: -2px;letter-spacing: -2px;
+}
+.reveal i.conum * { color: white !important; }
+.reveal i.conum + b { display: none; }
+.reveal i.conum:after { content: attr(data-value); }
+.reveal i.conum:not([data-value]):empty { display: none; }
+
 .paragraph p {
     display:block;
     line-height: 1.3;
