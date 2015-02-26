@@ -93,12 +93,16 @@ body {
     color: black;
 }
 
-/*.reveal .slides {
-    margin-top: 80px;
-}*/
-
 .reveal section {
     text-align: left;
+}
+
+/******************************************
+ * Fill screen to 100% & align text on left
+ ******************************************/
+.reveal .slides {
+    text-align: left;
+    top: 370px;
 }
 
 ::selection {
@@ -222,4 +226,5 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-    color: darkblue; }
+    color: darkblue;
+}
