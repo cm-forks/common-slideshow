@@ -278,7 +278,6 @@ ul li li li {list-style-type:circle;}
 .reveal i.conum:after { content: attr(data-value); }
 .reveal i.conum:not([data-value]):empty { display: none; }
 
-
 .paragraph p {
     display:block;
     line-height: 1.3;
